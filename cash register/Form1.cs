@@ -135,7 +135,7 @@ namespace cash_register
 
 
         {   //sets everything back to normal
-            Graphics formgraphics = this.CreateGraphics();
+            Graphics formgraphics = this.CreateGraphics(); 
             SolidBrush drawBrush = new SolidBrush(Color.White);
             bayonet.Clear();
             karambit.Clear();
